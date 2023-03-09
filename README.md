@@ -1,3 +1,13 @@
+# E-commerce App
+
+## Features
+- SignUp/Login
+- Home Page/ Landing View
+- Products page
+- Admin Dashboard with Customer list
+
+Project has been hosted at: https://e-commerce-i6daustxp-lisa1704.vercel.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -5,7 +5,7 @@ import Shop from "./Shop";
 
 const Cart = ({ cart }) =>{
     console.log(cart);
-    <div>
+    <div >
       <h2>Shopping Cart</h2>
       {cart.map((item) => (
         <div key={item.id}>
