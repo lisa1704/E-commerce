@@ -10,6 +10,7 @@ import Login from "../pages/Login"
 const Router = () =>{
      return (
      <Routes>
+        <Route path='/' element={<Home/>}/>
          <Route exact path='home' element={<Home/>}/>
          <Route exact path='shop' element={<Shop/>}/>
          <Route path='home/signup' element={<SignUp/>}/>
