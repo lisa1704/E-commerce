@@ -3,7 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 function AdminProfile() {
   return (
-    <div className="flex items-center space-x-4">
+    <div className='mb-60 mt-10 px-4 py-2'>
+    <div className="flex p-4 py-10 px-4 border-2 items-center">
       <div className="flex-shrink-0">
         <img
           className="h-24 w-24 rounded-full"
@@ -33,6 +34,7 @@ function AdminProfile() {
         
          
       </div>
+    </div>
     </div>
   );
 }

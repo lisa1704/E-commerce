@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import Cart from './../pages/Cart';
 
 const products = [
   {
@@ -29,10 +30,11 @@ const Shop = () => {
 
   const addToCart = (product) => {
     setCart([...cart, product]);
+    console.log('Mao0000000000',cart);
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container bg-blue-300 mx-auto px-4 py-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {products.map((product) => (
           <div key={product.id} className="bg-white p-4 rounded-lg shadow">
@@ -46,6 +48,7 @@ const Shop = () => {
             >
               Add to Cart
             </button>
+            {/* <Cart cart={this.state.cart}/> */}
           </div>
         ))}
       </div>

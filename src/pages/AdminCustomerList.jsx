@@ -30,6 +30,7 @@ const customers = [
 
 const AdminCustomerList = () => {
   return (
+    <div className='mb-60 mt-10 px-4 py-2'>
     <div className="flex flex-col">
       <div className="overflow-x-auto">
         <div className="py-2 align-middle inline-block min-w-full">
@@ -67,6 +68,7 @@ const AdminCustomerList = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
